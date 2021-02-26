@@ -24,7 +24,7 @@ CREATE TABLE "lga_suburbs" (
 
 CREATE TABLE "suburbs" (
     "postcode" INT   NOT NULL,
-    "suburb_name" VARCHAR(30)   NOT NULL,
+    "suburb" VARCHAR(30)   NOT NULL,
     CONSTRAINT "pk_suburbs" PRIMARY KEY (
         "postcode"
      )
@@ -55,7 +55,7 @@ CREATE TABLE "suburb_vs_crime" (
 CREATE TABLE "place_type_vs_crime" (
     "place_id" INT   NOT NULL,
     "crime_id" VARCHAR(5)   NOT NULL,
-    "average_incdent" INT   NOT NULL
+    "average_incident" INT   NOT NULL
 );
 
 CREATE TABLE "suburb_vs_place_type" (

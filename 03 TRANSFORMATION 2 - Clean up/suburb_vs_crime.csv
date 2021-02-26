@@ -1,4 +1,4 @@
-lga_name,postcode,suburb_name,crime_id,crime_name,average_incdent
+lga_name,postcode,suburb,crime_id,crime_name,average_incident
 Banyule,3079,ivanhoe,A20,Assault and related offences,43.6
 Banyule,3079,ivanhoe,A50,Robbery,3.0
 Banyule,3079,ivanhoe,A70,"Stalking, harassment and threatening behaviour",8.1
