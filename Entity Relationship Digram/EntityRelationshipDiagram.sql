@@ -49,7 +49,7 @@ CREATE TABLE "crime_types" (
 CREATE TABLE "suburb_vs_crime" (
     "postcoe" INT   NOT NULL,
     "crime_id" VARCHAR(5)   NOT NULL,
-    "crime_count" INT   NOT NULL
+    "average_incident" INT   NOT NULL
 );
 
 CREATE TABLE "place_type_vs_crime" (
