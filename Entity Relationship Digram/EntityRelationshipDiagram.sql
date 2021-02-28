@@ -6,85 +6,108 @@
 -- To reset the sample schema, replace everything with
 -- two dots ('..' - without quotes).
 
-CREATE TABLE "local_govt_areas" (
-    "lga_id" INT   NOT NULL,
-    "lga_name" VARCHAR(30)   NOT NULL,
-    CONSTRAINT "pk_local_govt_areas" PRIMARY KEY (
-        "lga_id"
-     )
-);
+SET XACT_ABORT ON
 
-CREATE TABLE "lga_suburbs" (
-    "lga_id" INT   NOT NULL,
-    "postcode" INT   NOT NULL,
-    CONSTRAINT "pk_lga_suburbs" PRIMARY KEY (
-        "lga_id","postcode"
-     )
-);
+BEGIN TRANSACTION QUICKDBD
 
-CREATE TABLE "suburbs" (
-    "postcode" INT   NOT NULL,
-    "suburb" VARCHAR(30)   NOT NULL,
-    CONSTRAINT "pk_suburbs" PRIMARY KEY (
-        "postcode"
-     )
-);
+CREATE TABLE [local_govt_areas] (
+    [lga_id] INT  NOT NULL ,
+    [lga_name] VARCHAR(30)  NOT NULL ,
+    CONSTRAINT [PK_local_govt_areas] PRIMARY KEY CLUSTERED (
+        [lga_id] ASC
+    )
+)
 
-CREATE TABLE "place_types" (
-    "place_id" INT   NOT NULL,
-    "place_type" VARCHAR(30)   NOT NULL,
-    CONSTRAINT "pk_place_types" PRIMARY KEY (
-        "place_id"
-     )
-);
+CREATE TABLE [lga_suburbs] (
+    [lga_id] INT  NOT NULL ,
+    [suburb] INT  NOT NULL ,
+    CONSTRAINT [PK_lga_suburbs] PRIMARY KEY CLUSTERED (
+        [lga_id] ASC,[suburb] ASC
+    )
+)
 
-CREATE TABLE "crime_types" (
-    "crime_id" VARCHAR(5)   NOT NULL,
-    "crime_name" VARCHAR(30)   NOT NULL,
-    CONSTRAINT "pk_crime_types" PRIMARY KEY (
-        "crime_id"
-     )
-);
+CREATE TABLE [suburbs] (
+    [postcode] INT  NOT NULL ,
+    [suburb] VARCHAR(30)  NOT NULL ,
+    [lat] FLOAT  NOT NULL ,
+    [long] FLOAT  NOT NULL ,
+    CONSTRAINT [PK_suburbs] PRIMARY KEY CLUSTERED (
+        [suburb] ASC
+    )
+)
 
-CREATE TABLE "suburb_vs_crime" (
-    "postcoe" INT   NOT NULL,
-    "crime_id" VARCHAR(5)   NOT NULL,
-    "average_incident" INT   NOT NULL
-);
+CREATE TABLE [place_types] (
+    [place_id] INT  NOT NULL ,
+    [place_type] VARCHAR(30)  NOT NULL ,
+    CONSTRAINT [PK_place_types] PRIMARY KEY CLUSTERED (
+        [place_id] ASC
+    )
+)
 
-CREATE TABLE "place_type_vs_crime" (
-    "place_id" INT   NOT NULL,
-    "crime_id" VARCHAR(5)   NOT NULL,
-    "average_incident" INT   NOT NULL
-);
+CREATE TABLE [crime_types] (
+    [crime_id] VARCHAR(5)  NOT NULL ,
+    [crime_name] VARCHAR(30)  NOT NULL ,
+    CONSTRAINT [PK_crime_types] PRIMARY KEY CLUSTERED (
+        [crime_id] ASC
+    )
+)
 
-CREATE TABLE "suburb_vs_place_type" (
-    "postcode" INT   NOT NULL,
-    "place_id" INT   NOT NULL,
-    "place_type_count" INT   NOT NULL
-);
+CREATE TABLE [suburb_vs_crime] (
+    [suburb] INT  NOT NULL ,
+    [crime_id] VARCHAR(5)  NOT NULL ,
+    [average_incident] INT  NOT NULL 
+)
 
-ALTER TABLE "lga_suburbs" ADD CONSTRAINT "fk_lga_suburbs_lga_id" FOREIGN KEY("lga_id")
-REFERENCES "local_govt_areas" ("lga_id");
+CREATE TABLE [place_type_vs_crime] (
+    [place_id] INT  NOT NULL ,
+    [crime_id] VARCHAR(5)  NOT NULL ,
+    [average_incident] INT  NOT NULL 
+)
 
-ALTER TABLE "lga_suburbs" ADD CONSTRAINT "fk_lga_suburbs_postcode" FOREIGN KEY("postcode")
-REFERENCES "suburbs" ("postcode");
+CREATE TABLE [suburb_vs_place_type] (
+    [suburb] INT  NOT NULL ,
+    [place_id] INT  NOT NULL ,
+    [place_type_count] INT  NOT NULL 
+)
 
-ALTER TABLE "suburb_vs_crime" ADD CONSTRAINT "fk_suburb_vs_crime_postcoe" FOREIGN KEY("postcoe")
-REFERENCES "suburbs" ("postcode");
+ALTER TABLE [lga_suburbs] WITH CHECK ADD CONSTRAINT [FK_lga_suburbs_lga_id] FOREIGN KEY([lga_id])
+REFERENCES [local_govt_areas] ([lga_id])
 
-ALTER TABLE "suburb_vs_crime" ADD CONSTRAINT "fk_suburb_vs_crime_crime_id" FOREIGN KEY("crime_id")
-REFERENCES "crime_types" ("crime_id");
+ALTER TABLE [lga_suburbs] CHECK CONSTRAINT [FK_lga_suburbs_lga_id]
 
-ALTER TABLE "place_type_vs_crime" ADD CONSTRAINT "fk_place_type_vs_crime_place_id" FOREIGN KEY("place_id")
-REFERENCES "place_types" ("place_id");
+ALTER TABLE [lga_suburbs] WITH CHECK ADD CONSTRAINT [FK_lga_suburbs_suburb] FOREIGN KEY([suburb])
+REFERENCES [suburbs] ([suburb])
 
-ALTER TABLE "place_type_vs_crime" ADD CONSTRAINT "fk_place_type_vs_crime_crime_id" FOREIGN KEY("crime_id")
-REFERENCES "crime_types" ("crime_name");
+ALTER TABLE [lga_suburbs] CHECK CONSTRAINT [FK_lga_suburbs_suburb]
 
-ALTER TABLE "suburb_vs_place_type" ADD CONSTRAINT "fk_suburb_vs_place_type_postcode" FOREIGN KEY("postcode")
-REFERENCES "suburbs" ("postcode");
+ALTER TABLE [suburb_vs_crime] WITH CHECK ADD CONSTRAINT [FK_suburb_vs_crime_suburb] FOREIGN KEY([suburb])
+REFERENCES [suburbs] ([suburb])
 
-ALTER TABLE "suburb_vs_place_type" ADD CONSTRAINT "fk_suburb_vs_place_type_place_id" FOREIGN KEY("place_id")
-REFERENCES "place_types" ("place_id");
+ALTER TABLE [suburb_vs_crime] CHECK CONSTRAINT [FK_suburb_vs_crime_suburb]
 
+ALTER TABLE [suburb_vs_crime] WITH CHECK ADD CONSTRAINT [FK_suburb_vs_crime_crime_id] FOREIGN KEY([crime_id])
+REFERENCES [crime_types] ([crime_id])
+
+ALTER TABLE [suburb_vs_crime] CHECK CONSTRAINT [FK_suburb_vs_crime_crime_id]
+
+ALTER TABLE [place_type_vs_crime] WITH CHECK ADD CONSTRAINT [FK_place_type_vs_crime_place_id] FOREIGN KEY([place_id])
+REFERENCES [place_types] ([place_id])
+
+ALTER TABLE [place_type_vs_crime] CHECK CONSTRAINT [FK_place_type_vs_crime_place_id]
+
+ALTER TABLE [place_type_vs_crime] WITH CHECK ADD CONSTRAINT [FK_place_type_vs_crime_crime_id] FOREIGN KEY([crime_id])
+REFERENCES [crime_types] ([crime_name])
+
+ALTER TABLE [place_type_vs_crime] CHECK CONSTRAINT [FK_place_type_vs_crime_crime_id]
+
+ALTER TABLE [suburb_vs_place_type] WITH CHECK ADD CONSTRAINT [FK_suburb_vs_place_type_suburb] FOREIGN KEY([suburb])
+REFERENCES [suburbs] ([suburb])
+
+ALTER TABLE [suburb_vs_place_type] CHECK CONSTRAINT [FK_suburb_vs_place_type_suburb]
+
+ALTER TABLE [suburb_vs_place_type] WITH CHECK ADD CONSTRAINT [FK_suburb_vs_place_type_place_id] FOREIGN KEY([place_id])
+REFERENCES [place_types] ([place_id])
+
+ALTER TABLE [suburb_vs_place_type] CHECK CONSTRAINT [FK_suburb_vs_place_type_place_id]
+
+COMMIT TRANSACTION QUICKDBD
