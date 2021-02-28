@@ -1,32 +1,376 @@
-lga,lga_id
-banyule,1
-darebin,2
-whittlesea,3
-nillumbik,4
-bayside,5
-glen eira,6
-kingston,7
-boroondara,8
-whitehorse,9
-stonnington,10
-brimbank,11
-hobsons bay,12
-east gippsland,13
-melton,14
-hume,15
-moonee valley,16
-moreland,17
-cardinia,18
-yarra ranges,19
-casey,20
-greater dandenong,21
-yarra,22
-frankston,23
-port phillip,24
-wyndham,25
-monash,26
-knox,27
-manningham,28
-maribyrnong,29
-maroondah,30
-melbourne,31
+postcode,suburb
+3081,bellfield
+3088,briar hill
+3083,bundoora
+3084,eaglemont
+3095,eltham
+3095,eltham north
+3088,greensborough
+3084,heidelberg
+3081,heidelberg heights
+3081,heidelberg west
+3079,ivanhoe
+3079,ivanhoe east
+3093,lower plenty
+3085,macleod
+3094,montmorency
+3084,rosanna
+3088,st helena
+3084,viewbank
+3087,watsonia
+3087,watsonia north
+3085,yallambie
+3193,beaumaris
+3193,black rock
+3186,brighton
+3187,brighton east
+3188,brighton east
+3192,cheltenham
+3188,hampton
+3188,hampton east
+3190,highett
+3191,sandringham
+3147,ashburton
+3103,balwyn
+3104,balwyn north
+3124,camberwell
+3126,canterbury
+3103,deepdene
+3124,glen iris
+3146,glen iris
+3122,hawthorn
+3123,hawthorn east
+3101,kew
+3102,kew east
+3127,mont albert
+3127,surrey hills
+3021,albanvale
+3020,albion
+3022,ardeer
+3012,brooklyn
+3023,cairnlea
+3023,deer park
+3037,delahey
+3020,derrimut
+3030,derrimut
+3037,hillside
+3021,kealba
+3036,keilor
+3038,keilor downs
+3033,keilor east
+3038,keilor lodge
+3042,keilor park
+3021,kings park
+3021,st albans
+3020,sunshine
+3020,sunshine north
+3037,sydenham
+3038,taylors lakes
+3043,tullamarine
+3782,clematis
+3782,emerald
+3806,berwick
+3977,cranbourne
+3977,cranbourne north
+3177,doveton
+3802,endeavour hills
+3177,eumemmerring
+3803,hallam
+3976,hampton park
+3977,junction village
+3975,lynbrook
+3975,lyndhurst
+3156,lysterfield south
+3805,narre warren
+3804,narre warren north
+3805,narre warren south
+3078,alphington
+3083,bundoora
+3086,bundoora
+3078,fairfield
+3083,kingsbury
+3085,macleod
+3070,northcote
+3072,preston
+3073,reservoir
+3071,thornbury
+3875,hillside
+3201,carrum downs
+3199,frankston
+3200,frankston north
+3199,frankston south
+3910,langwarrin
+3911,langwarrin south
+3977,sandhurst
+3198,seaford
+3977,skye
+3204,bentleigh
+3165,bentleigh east
+3187,brighton east
+3163,carnegie
+3162,caulfield
+3145,caulfield east
+3161,caulfield north
+3162,caulfield south
+3185,elsternwick
+3185,gardenvale
+3163,glen huntly
+3204,mckinnon
+3163,murrumbeena
+3204,ormond
+3183,st kilda east
+3175,bangholme
+3175,dandenong
+3175,dandenong north
+3175,dandenong south
+3173,keysborough
+3975,lyndhurst
+3174,noble park
+3174,noble park north
+3171,springvale
+3172,springvale south
+3018,altona
+3028,altona meadows
+3025,altona north
+3012,brooklyn
+3028,laverton
+3015,newport
+3028,seabrook
+3018,seaholme
+3015,south kingsville
+3015,spotswood
+3016,williamstown
+3016,williamstown north
+3049,attwood
+3047,broadmeadows
+3061,campbellfield
+3048,coolaroo
+3064,craigieburn
+3047,dallas
+3060,fawkner
+3043,gladstone park
+3047,jacana
+3036,keilor
+3048,meadow heights
+3064,roxburgh park
+3043,tullamarine
+3049,westmeadows
+3195,aspendale
+3195,aspendale gardens
+3196,bonbeach
+3197,carrum
+3196,chelsea
+3196,chelsea heights
+3192,cheltenham
+3169,clarinda
+3169,clayton south
+3172,dingley village
+3196,edithvale
+3202,heatherton
+3190,highett
+3194,mentone
+3189,moorabbin
+3195,mordialloc
+3167,oakleigh south
+3195,parkdale
+3197,patterson lakes
+3195,waterways
+3153,bayswater
+3155,boronia
+3156,ferntree gully
+3180,knoxfield
+3178,rowville
+3180,rowville
+3179,scoresby
+3154,the basin
+3156,upper ferntree gully
+3152,wantirna
+3152,wantirna south
+3105,bulleen
+3107,doncaster
+3108,doncaster
+3109,doncaster east
+3111,donvale
+3131,nunawading
+3114,park orchards
+3134,ringwood north
+3106,templestowe
+3107,templestowe lower
+3113,warrandyte
+3011,footscray
+3012,kingsville
+3012,maidstone
+3032,maribyrnong
+3011,seddon
+3012,west footscray
+3013,yarraville
+3153,bayswater north
+3136,croydon
+3136,croydon hills
+3136,croydon north
+3136,croydon south
+3135,heathmont
+3137,kilsyth
+3137,kilsyth south
+3134,ringwood
+3134,ringwood north
+3133,vermont
+3134,warranwood
+3053,carlton
+3054,carlton north
+3005,docklands
+3008,docklands
+3002,east melbourne
+3031,flemington
+3031,kensington
+3000,melbourne
+3004,melbourne
+3051,north melbourne
+3010,parkville
+3050,parkville
+3052,parkville
+3207,port melbourne
+3141,south yarra
+3006,southbank
+3003,west melbourne
+3023,burnside
+3023,burnside heights
+3023,caroline springs
+3037,hillside
+3037,taylors hill
+3147,ashwood
+3125,burwood
+3148,chadstone
+3168,clayton
+3800,clayton
+3150,glen waverley
+3166,hughesdale
+3166,huntingdale
+3149,mount waverley
+3170,mulgrave
+3168,notting hill
+3166,oakleigh
+3166,oakleigh east
+3167,oakleigh south
+3150,wheelers hill
+3040,aberfeldie
+3042,airport west
+3032,ascot vale
+3034,avondale heights
+3040,essendon
+3041,essendon north
+3040,essendon west
+3031,flemington
+3033,keilor east
+3031,kensington
+3039,moonee ponds
+3042,niddrie
+3041,strathmore
+3041,strathmore heights
+3032,travancore
+3056,brunswick
+3057,brunswick east
+3055,brunswick west
+3058,coburg
+3058,coburg north
+3060,fawkner
+3068,fitzroy north
+3046,glenroy
+3043,gowanbrae
+3046,hadfield
+3046,oak park
+3044,pascoe vale
+3044,pascoe vale south
+3043,tullamarine
+3089,diamond creek
+3095,eltham
+3095,eltham north
+3088,greensborough
+3099,hurstbridge
+3113,north warrandyte
+3095,research
+3206,albert park
+3183,balaclava
+3184,elwood
+3004,melbourne
+3206,middle park
+3207,port melbourne
+3185,ripponlea
+3205,south melbourne
+3006,southbank
+3182,st kilda
+3183,st kilda east
+3182,st kilda west
+3181,windsor
+3143,armadale
+3146,glen iris
+3144,kooyong
+3144,malvern
+3145,malvern east
+3143,prahran
+3181,prahran
+3141,south yarra
+3142,toorak
+3181,windsor
+3104,balwyn north
+3130,blackburn
+3130,blackburn north
+3130,blackburn south
+3128,box hill
+3129,box hill north
+3128,box hill south
+3125,burwood
+3151,burwood east
+3131,forest hill
+3132,mitcham
+3127,mont albert
+3129,mont albert north
+3131,nunawading
+3127,surrey hills
+3133,vermont
+3133,vermont south
+3083,bundoora
+3076,epping
+3075,lalor
+3082,mill park
+3752,south morang
+3074,thomastown
+3029,hoppers crossing
+3028,laverton
+3030,point cook
+3030,werribee
+3027,williams landing
+3067,abbotsford
+3078,alphington
+3121,burnley
+3054,carlton north
+3066,clifton hill
+3067,clifton hill
+3068,clifton hill
+3066,collingwood
+3121,cremorne
+3078,fairfield
+3065,fitzroy
+3068,fitzroy north
+3054,princes hill
+3121,richmond
+3160,belgrave
+3160,belgrave heights
+3782,emerald
+3786,ferny creek
+3791,kallista
+3766,kalorama
+3137,kilsyth
+3140,lilydale
+3765,montrose
+3138,mooroolbark
+3767,mount dandenong
+3796,mount evelyn
+3787,sassafras
+3159,selby
+3789,sherbrooke
+3160,tecoma
+3792,the patch
+3156,upper ferntree gully
+3158,upwey
+3139,wandin north

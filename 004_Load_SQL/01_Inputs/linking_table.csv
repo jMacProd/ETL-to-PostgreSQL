@@ -1,32 +1,376 @@
-lga,lga_id
-banyule,1
-darebin,2
-whittlesea,3
-nillumbik,4
-bayside,5
-glen eira,6
-kingston,7
-boroondara,8
-whitehorse,9
-stonnington,10
-brimbank,11
-hobsons bay,12
-east gippsland,13
-melton,14
-hume,15
-moonee valley,16
-moreland,17
-cardinia,18
-yarra ranges,19
-casey,20
-greater dandenong,21
-yarra,22
-frankston,23
-port phillip,24
-wyndham,25
-monash,26
-knox,27
-manningham,28
-maribyrnong,29
-maroondah,30
-melbourne,31
+lga_id,suburb
+1,bellfield
+1,briar hill
+1,bundoora
+1,eaglemont
+1,eltham
+1,eltham north
+1,greensborough
+1,heidelberg
+1,heidelberg heights
+1,heidelberg west
+1,ivanhoe
+1,ivanhoe east
+1,lower plenty
+1,macleod
+1,montmorency
+1,rosanna
+1,st helena
+1,viewbank
+1,watsonia
+1,watsonia north
+1,yallambie
+5,beaumaris
+5,black rock
+5,brighton
+5,brighton east
+5,brighton east
+5,cheltenham
+5,hampton
+5,hampton east
+5,highett
+5,sandringham
+8,ashburton
+8,balwyn
+8,balwyn north
+8,camberwell
+8,canterbury
+8,deepdene
+8,glen iris
+8,glen iris
+8,hawthorn
+8,hawthorn east
+8,kew
+8,kew east
+8,mont albert
+8,surrey hills
+11,albanvale
+11,albion
+11,ardeer
+11,brooklyn
+11,cairnlea
+11,deer park
+11,delahey
+11,derrimut
+11,derrimut
+11,hillside
+11,kealba
+11,keilor
+11,keilor downs
+11,keilor east
+11,keilor lodge
+11,keilor park
+11,kings park
+11,st albans
+11,sunshine
+11,sunshine north
+11,sydenham
+11,taylors lakes
+11,tullamarine
+18,clematis
+18,emerald
+20,berwick
+20,cranbourne
+20,cranbourne north
+20,doveton
+20,endeavour hills
+20,eumemmerring
+20,hallam
+20,hampton park
+20,junction village
+20,lynbrook
+20,lyndhurst
+20,lysterfield south
+20,narre warren
+20,narre warren north
+20,narre warren south
+2,alphington
+2,bundoora
+2,bundoora
+2,fairfield
+2,kingsbury
+2,macleod
+2,northcote
+2,preston
+2,reservoir
+2,thornbury
+13,hillside
+23,carrum downs
+23,frankston
+23,frankston north
+23,frankston south
+23,langwarrin
+23,langwarrin south
+23,sandhurst
+23,seaford
+23,skye
+6,bentleigh
+6,bentleigh east
+6,brighton east
+6,carnegie
+6,caulfield
+6,caulfield east
+6,caulfield north
+6,caulfield south
+6,elsternwick
+6,gardenvale
+6,glen huntly
+6,mckinnon
+6,murrumbeena
+6,ormond
+6,st kilda east
+21,bangholme
+21,dandenong
+21,dandenong north
+21,dandenong south
+21,keysborough
+21,lyndhurst
+21,noble park
+21,noble park north
+21,springvale
+21,springvale south
+12,altona
+12,altona meadows
+12,altona north
+12,brooklyn
+12,laverton
+12,newport
+12,seabrook
+12,seaholme
+12,south kingsville
+12,spotswood
+12,williamstown
+12,williamstown north
+15,attwood
+15,broadmeadows
+15,campbellfield
+15,coolaroo
+15,craigieburn
+15,dallas
+15,fawkner
+15,gladstone park
+15,jacana
+15,keilor
+15,meadow heights
+15,roxburgh park
+15,tullamarine
+15,westmeadows
+7,aspendale
+7,aspendale gardens
+7,bonbeach
+7,carrum
+7,chelsea
+7,chelsea heights
+7,cheltenham
+7,clarinda
+7,clayton south
+7,dingley village
+7,edithvale
+7,heatherton
+7,highett
+7,mentone
+7,moorabbin
+7,mordialloc
+7,oakleigh south
+7,parkdale
+7,patterson lakes
+7,waterways
+27,bayswater
+27,boronia
+27,ferntree gully
+27,knoxfield
+27,rowville
+27,rowville
+27,scoresby
+27,the basin
+27,upper ferntree gully
+27,wantirna
+27,wantirna south
+28,bulleen
+28,doncaster
+28,doncaster
+28,doncaster east
+28,donvale
+28,nunawading
+28,park orchards
+28,ringwood north
+28,templestowe
+28,templestowe lower
+28,warrandyte
+29,footscray
+29,kingsville
+29,maidstone
+29,maribyrnong
+29,seddon
+29,west footscray
+29,yarraville
+30,bayswater north
+30,croydon
+30,croydon hills
+30,croydon north
+30,croydon south
+30,heathmont
+30,kilsyth
+30,kilsyth south
+30,ringwood
+30,ringwood north
+30,vermont
+30,warranwood
+31,carlton
+31,carlton north
+31,docklands
+31,docklands
+31,east melbourne
+31,flemington
+31,kensington
+31,melbourne
+31,melbourne
+31,north melbourne
+31,parkville
+31,parkville
+31,parkville
+31,port melbourne
+31,south yarra
+31,southbank
+31,west melbourne
+14,burnside
+14,burnside heights
+14,caroline springs
+14,hillside
+14,taylors hill
+26,ashwood
+26,burwood
+26,chadstone
+26,clayton
+26,clayton
+26,glen waverley
+26,hughesdale
+26,huntingdale
+26,mount waverley
+26,mulgrave
+26,notting hill
+26,oakleigh
+26,oakleigh east
+26,oakleigh south
+26,wheelers hill
+16,aberfeldie
+16,airport west
+16,ascot vale
+16,avondale heights
+16,essendon
+16,essendon north
+16,essendon west
+16,flemington
+16,keilor east
+16,kensington
+16,moonee ponds
+16,niddrie
+16,strathmore
+16,strathmore heights
+16,travancore
+17,brunswick
+17,brunswick east
+17,brunswick west
+17,coburg
+17,coburg north
+17,fawkner
+17,fitzroy north
+17,glenroy
+17,gowanbrae
+17,hadfield
+17,oak park
+17,pascoe vale
+17,pascoe vale south
+17,tullamarine
+4,diamond creek
+4,eltham
+4,eltham north
+4,greensborough
+4,hurstbridge
+4,north warrandyte
+4,research
+24,albert park
+24,balaclava
+24,elwood
+24,melbourne
+24,middle park
+24,port melbourne
+24,ripponlea
+24,south melbourne
+24,southbank
+24,st kilda
+24,st kilda east
+24,st kilda west
+24,windsor
+10,armadale
+10,glen iris
+10,kooyong
+10,malvern
+10,malvern east
+10,prahran
+10,prahran
+10,south yarra
+10,toorak
+10,windsor
+9,balwyn north
+9,blackburn
+9,blackburn north
+9,blackburn south
+9,box hill
+9,box hill north
+9,box hill south
+9,burwood
+9,burwood east
+9,forest hill
+9,mitcham
+9,mont albert
+9,mont albert north
+9,nunawading
+9,surrey hills
+9,vermont
+9,vermont south
+3,bundoora
+3,epping
+3,lalor
+3,mill park
+3,south morang
+3,thomastown
+25,hoppers crossing
+25,laverton
+25,point cook
+25,werribee
+25,williams landing
+22,abbotsford
+22,alphington
+22,burnley
+22,carlton north
+22,clifton hill
+22,clifton hill
+22,clifton hill
+22,collingwood
+22,cremorne
+22,fairfield
+22,fitzroy
+22,fitzroy north
+22,princes hill
+22,richmond
+19,belgrave
+19,belgrave heights
+19,emerald
+19,ferny creek
+19,kallista
+19,kalorama
+19,kilsyth
+19,lilydale
+19,montrose
+19,mooroolbark
+19,mount dandenong
+19,mount evelyn
+19,sassafras
+19,selby
+19,sherbrooke
+19,tecoma
+19,the patch
+19,upper ferntree gully
+19,upwey
+19,wandin north
