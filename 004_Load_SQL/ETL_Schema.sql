@@ -13,7 +13,7 @@
 
 CREATE TABLE local_govt_areas (
 	lga_id INT PRIMARY KEY,
-	lga_name VARCHAR(30)
+	lga_name VARCHAR(60)
 );
 
 
