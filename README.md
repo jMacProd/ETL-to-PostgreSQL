@@ -45,7 +45,7 @@ Please see ETL Project report include in repository for full details on extracti
 
 ### Final Output
 * The final PostreSql table schema was definbed in pgAdmin using the sql query file based on the below Entity Relationship Diagram.
-* THe final jupyter notebook push the data set into the postresSQL database in pgAdmin
+* The final jupyter notebook push the data set into the postresSQL database in pgAdmin
 ![Entity Relationship Diagram](https://github.com/jMacProd/ETL-Project/blob/main/005_Load_SQL/02_Entity%20Relationship%20Digram/EntityRelationshipDiagram.png)
 
 ## Technologies:
