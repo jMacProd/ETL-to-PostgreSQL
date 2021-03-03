@@ -40,8 +40,8 @@ Please see ETL Project report include in repository for full details on extracti
 * 01_creating_tables_for_sql_heesu_2_times_Output.ipynb
 
 **Directory: 005_Load_SQL**
-* 01_load_SQL.ipynb
 * ETL_Schema.sql - pdadmin file establishing table schema
+* 01_load_SQL.ipynb
 
 ### Final Output
 * The final PostreSql table schema was definbed in pgAdmin using the sql query file based on the below Entity Relationship Diagram.
