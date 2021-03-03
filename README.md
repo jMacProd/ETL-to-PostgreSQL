@@ -40,7 +40,7 @@ Directory: 005_Load_SQL
 
 
 ### Final Output
-![Image description](https://github.com/LarrySul/Parallax-Landing-Page/blob/master/src/img/Screenshot%20(285).png)
+![Entity Relationship Digram](005_Load_SQL/02_Entity Relationship Digram/EntityRelationshipDiagram.png)
 
 ## Navigating the repository:
 
@@ -56,6 +56,7 @@ Directory: 005_Load_SQL
 
 ## Resources
 * #https://www.geeksforgeeks.org/detect-and-remove-the-outliers-using-python/)
+* 
 
 ## Notes
 
