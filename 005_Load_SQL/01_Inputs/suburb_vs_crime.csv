@@ -38,26 +38,26 @@ Banyule,3079,ivanhoe east,D30,Public nuisance offences,1.0
 Banyule,3079,ivanhoe east,E10,Justice procedures,1.3333333333333333
 Banyule,3079,ivanhoe east,E20,Breaches of orders,4.777777777777779
 Banyule,3079,ivanhoe east,Other,crimes against the person,2.0
-Banyule,3081,bellfield,A20,Assault and related offences,12.7
-Banyule,3081,bellfield,A50,Robbery,1.0
-Banyule,3081,bellfield,A70,"Stalking, harassment and threatening behaviour",3.111111111111111
-Banyule,3081,bellfield,A80,Dangerous and negligent acts endangering people,2.0
-Banyule,3081,bellfield,B10,Arson,2.75
-Banyule,3081,bellfield,B20,Property damage,17.5
-Banyule,3081,bellfield,B30,Burglary/Break and enter,24.1
-Banyule,3081,bellfield,B40,Theft,34.5
-Banyule,3081,bellfield,B50,Deception,2.25
-Banyule,3081,bellfield,C10,Drug dealing and trafficking,1.4285714285714286
-Banyule,3081,bellfield,C20,Cultivate or manufacture drugs,1.1666666666666667
-Banyule,3081,bellfield,C30,Drug use and possession,3.4444444444444446
-Banyule,3081,bellfield,C90,Other drug offences,1.0
-Banyule,3081,bellfield,D10,Weapons and explosives offences,2.375
-Banyule,3081,bellfield,D20,Disorderly and offensive conduct,2.2222222222222223
-Banyule,3081,bellfield,D30,Public nuisance offences,1.6666666666666667
-Banyule,3081,bellfield,E10,Justice procedures,1.4285714285714286
-Banyule,3081,bellfield,E20,Breaches of orders,10.111111111111109
-Banyule,3081,bellfield,F90,Miscellaneous offences,14.0
-Banyule,3081,bellfield,Other,crimes against the person,2.375
+Banyule,3081,bellfield,A20,Assault and related offences,25.4
+Banyule,3081,bellfield,A50,Robbery,2.0
+Banyule,3081,bellfield,A70,"Stalking, harassment and threatening behaviour",6.222222222222222
+Banyule,3081,bellfield,A80,Dangerous and negligent acts endangering people,4.0
+Banyule,3081,bellfield,B10,Arson,5.5
+Banyule,3081,bellfield,B20,Property damage,35.0
+Banyule,3081,bellfield,B30,Burglary/Break and enter,48.2
+Banyule,3081,bellfield,B40,Theft,69.0
+Banyule,3081,bellfield,B50,Deception,4.5
+Banyule,3081,bellfield,C10,Drug dealing and trafficking,2.8571428571428568
+Banyule,3081,bellfield,C20,Cultivate or manufacture drugs,2.333333333333333
+Banyule,3081,bellfield,C30,Drug use and possession,6.888888888888888
+Banyule,3081,bellfield,C90,Other drug offences,2.0
+Banyule,3081,bellfield,D10,Weapons and explosives offences,4.75
+Banyule,3081,bellfield,D20,Disorderly and offensive conduct,4.4444444444444455
+Banyule,3081,bellfield,D30,Public nuisance offences,3.333333333333333
+Banyule,3081,bellfield,E10,Justice procedures,2.8571428571428568
+Banyule,3081,bellfield,E20,Breaches of orders,20.222222222222218
+Banyule,3081,bellfield,F90,Miscellaneous offences,28.0
+Banyule,3081,bellfield,Other,crimes against the person,4.75
 Banyule,3081,heidelberg heights,A20,Assault and related offences,50.1
 Banyule,3081,heidelberg heights,A50,Robbery,2.8
 Banyule,3081,heidelberg heights,A70,"Stalking, harassment and threatening behaviour",8.7
@@ -5815,7 +5815,7 @@ Nillumbik,3113,north warrandyte,D30,Public nuisance offences,1.0
 Nillumbik,3113,north warrandyte,E10,Justice procedures,1.0
 Nillumbik,3113,north warrandyte,E20,Breaches of orders,2.4444444444444446
 Nillumbik,3113,north warrandyte,Other,crimes against the person,1.1111111111111112
-Northern Grampians,3381,bellfield,B40,Theft,1.5
+Northern Grampians,3381,bellfield,B40,Theft,3.0
 Port Phillip,3004,melbourne,A20,Assault and related offences,61.4
 Port Phillip,3004,melbourne,A50,Robbery,4.285714285714286
 Port Phillip,3004,melbourne,A70,"Stalking, harassment and threatening behaviour",12.4

@@ -3,13 +3,16 @@
 
 --These are the basic tables that plot the keys for each item
 
--- -- Drop table if it already exists
--- DROP TABLE IF EXISTS departments CASCADE;
--- DROP TABLE IF EXISTS department_employees CASCADE;
--- DROP TABLE IF EXISTS department_managers CASCADE;
--- DROP TABLE IF EXISTS employees CASCADE;
--- DROP TABLE IF EXISTS salaries CASCADE;
--- DROP TABLE IF EXISTS titles CASCADE;
+-- Drop table if it already exists
+DROP TABLE IF EXISTS local_govt_areas CASCADE;
+DROP TABLE IF EXISTS suburbs CASCADE;
+DROP TABLE IF EXISTS crime CASCADE;
+DROP TABLE IF EXISTS place CASCADE;
+DROP TABLE IF EXISTS lga_suburbs CASCADE;
+DROP TABLE IF EXISTS suburb_vs_crime CASCADE;
+DROP TABLE IF EXISTS place_vs_crime CASCADE;
+DROP TABLE IF EXISTS suburb_vs_place CASCADE;
+
 
 CREATE TABLE local_govt_areas (
 	lga_id INT PRIMARY KEY,
