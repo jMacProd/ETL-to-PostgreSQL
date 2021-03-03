@@ -40,7 +40,7 @@ Directory: 005_Load_SQL
 
 
 ### Final Output
-![Entity Relationship Digram](https://github.com/jMacProd/ETL-Project/005_Load_SQL/02_Entity Relationship Digram/EntityRelationshipDiagram.png)
+![Entity Relationship Digram](https://github.com/jMacProd/ETL-Project/005_Load_SQL/02_Entity%20Relationship%20Digram/EntityRelationshipDiagram.png)
 
 ## Navigating the repository:
 
