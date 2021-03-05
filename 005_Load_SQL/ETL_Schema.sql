@@ -136,3 +136,69 @@ FROM place_vs_crime;
 
 SELECT *
 FROM suburb_vs_place;
+
+
+
+-- Possible Queries for analysis:
+
+-- Query total average incidents per local government area and crime type
+-- Ordered by local government area in ascending order
+
+SELECT
+	sc.lga_name,
+	sc.crime_name,
+	SUM(sc.average_incident) AS total_average_incidents
+FROM suburb_vs_crime as sc
+GROUP BY 
+	sc.lga_name,
+	sc.crime_name
+ORDER BY sc.lga_name ASC;
+
+
+-- Query total average incidents per local government area and crime type
+-- Ordered by total average incident in descending order
+
+SELECT
+	sc.lga_name,
+	sc.crime_name,
+	SUM(sc.average_incident) AS total_average_incidents
+FROM suburb_vs_crime as sc
+GROUP BY 
+	sc.lga_name,
+	sc.crime_name
+ORDER BY total_average_incidents DESC;
+
+
+-- Query average incidents per suburb and crime type vs. establishment types
+
+SELECT
+	l.lga_name,
+	s.suburb,
+	c.crime_name,
+	c.average_incident,
+	p.place_type,
+	sp.place_type_count
+FROM local_govt_areas AS l
+INNER JOIN lga_suburbs AS s ON s.lga_id = l.lga_id
+INNER JOIN suburb_vs_crime AS c ON c.suburb = s.suburb
+INNER JOIN suburb_vs_place AS sp ON sp.suburb = s.suburb
+INNER JOIN place AS p ON p.place_id = sp.place_id
+ORDER BY c.average_incident DESC;
+
+
+-- Query total incidents per suburb vs. number and types of establishment 
+
+SELECT 
+	sc.suburb,
+	p.place_type,
+	sp.place_type_count,
+	SUM(sc.average_incident) AS total_average_incident
+FROM suburb_vs_crime AS sc
+INNER JOIN suburb_vs_place AS sp ON sp.suburb = sc.suburb
+INNER JOIN place AS p ON p.place_id = sp.place_id
+GROUP BY 
+	sc.suburb,
+	sp.place_type_count, 
+	p.place_type
+ORDER BY total_average_incident DESC;
+
