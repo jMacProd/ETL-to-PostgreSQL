@@ -9,7 +9,7 @@ Please see ETL Project report include in repository for full details on extracti
 ## Project team 
 * Tom Peddlesden
 * Heesu Ha
-* Welan Chu
+* Welan Chu https://github.com/welanc/
 * Jason Sutton https://github.com/jMacProd
 
 ## Status
