@@ -40,7 +40,7 @@ Please see ETL Project report include in repository for full details on extracti
 * 01_creating_tables_for_sql_heesu_2_times_Output.ipynb
 
 **Directory: 005_Load_SQL**
-* ETL_Schema.sql - pdadmin file establishing table schema
+* ETL_Schema.sql - pgadmin file establishing table schema
 * 01_load_SQL.ipynb
 
 ### Final Output
