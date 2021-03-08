@@ -8,8 +8,8 @@ Please see ETL Project report include in repository for full details on extracti
 
 ## Project team 
 * Tom Peddlesden
-* Heesu Ha
-* Welan Chu https://github.com/welanc/
+* Heesu Ha https://github.com/Heesu-H
+* Welan Chu https://github.com/welanc
 * Jason Sutton https://github.com/jMacProd
 
 ## Status
@@ -39,12 +39,12 @@ Please see ETL Project report include in repository for full details on extracti
 * 01_creating_tables_for_sql_heesu_2_times_Output.ipynb
 
 **Directory: 005_Load_SQL**
-* ETL_Schema.sql - pgadmin file establishing table schema
-* 01_load_SQL.ipynb
+* ETL_Schema.sql - pgadmin file establishing table schema & sample queries for analysis
+* 01_load_SQL.ipynb - Jupyter Notebook used to push all database outputs (as CSVs) from folders 001 - 004 into ETL_Schema.sql PostgreSQL database.
 
 ### Final Output
-* The final PostgreSql table schema was defined in pgAdmin using the sql query file based on the below Entity Relationship Diagram.
-* The final jupyter notebook push the data set into the postresSQL database in pgAdmin
+* The final PostgreSQL table schema was defined in pgAdmin using the sql query file based on the below Entity Relationship Diagram.
+* The final jupyter notebook push the data set into the PostgreSQL database in pgAdmin
 ![Entity Relationship Diagram](https://github.com/jMacProd/ETL-Project/blob/main/005_Load_SQL/02_Entity%20Relationship%20Digram/EntityRelationshipDiagram.png)
 
 ## Technologies:
