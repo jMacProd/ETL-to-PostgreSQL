@@ -7,7 +7,7 @@ The Extract-Transform-Load (ETL) process was utilised for its effectiveness in c
 Please see ETL Project report include in repository for full details on extraction, transformation and loading dataset.
 
 ## Project team 
-* Tom Peddlesden
+* Tom Peddlesden https://github.com/tomjp90
 * Heesu Ha https://github.com/Heesu-H
 * Welan Chu https://github.com/welanc
 * Jason Sutton https://github.com/jMacProd
